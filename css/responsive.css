@@ -1,0 +1,120 @@
+/* Soluzione qui */
+
+/* RESPONSIVE TABLET 768px */
+
+@media screen and (min-width:768px) {
+
+    /* ALLINEAMENTO TITOLO A SINISTRA */
+    #topbar {
+        justify-content: start;
+    }
+
+    /* PADDING DEL MAIN CONTENT */
+    main {
+        padding: 40px;
+    }
+
+    /* GRANDEZZA TITOLO E COMPLETAMENTO TITOLO */
+    .recipe-title {
+        font-size: 1.2rem;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    /* DISPOSIZIONE INFO RICETTA A GRIGLIA */
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes ul>* {
+        width: calc(100%/3 - 20px)
+    }
+
+    /* SOVRADIMENSIONAMENTO BOTTONI SOTTO INFO RICETTA */
+
+    .social-networks>* {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    /* BANNER PUBBLICITARIO */
+
+    .ads {
+        display: block;
+    }
+
+    /* FLOATING IMMAGINE */
+
+    .presentation img {
+        float: left;
+        margin-right: 1rem;
+    }
+}
+
+/* RESPONSIVE DESKTOP 992px */
+
+@media screen and (min-width:992px) {
+
+    /* SOVRADIMENSIONAMENTO TITOLO */
+
+    .recipe-title {
+        font-size: 1.5rem;
+    }
+
+    /* DISPOSIZIONE INFO RICETTA AFFIANCO A VIDEO E IN COLONNA */
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 70%;
+    }
+
+    .recipe-info {
+        width: 30%;
+    }
+
+    .quick-notes ul {
+        flex-direction: column;
+    }
+
+    .quick-notes li {
+        width: 100%;
+    }
+
+    /* DISPLAY NOMI SOCIAL */
+    .social-networks .label {
+        display: block;
+
+    }
+
+    .social-networks button {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .social-networks>* {
+        width: calc(100%/5 - 20px);
+    }
+
+    /* DISPOSIZIONE TESTO IN FOOTER */
+
+    footer {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer address {
+        text-align: left;
+    }
+
+}
