@@ -35,17 +35,17 @@
 
 @media screen and (min-width:768px) {
 
-    /* ALLINEAMENTO TITOLO A SINISTRA */
+    /* allineamento titolo a sinistra */
     #topbar {
         justify-content: start;
     }
 
-    /* PADDING DEL MAIN CONTENT */
+    /* padding al main content */
     main {
         padding: 40px;
     }
 
-    /* GRANDEZZA TITOLO E COMPLETAMENTO TITOLO */
+    /* grandezza e completamento titolo */
     .recipe-title {
         font-size: 1.2rem;
     }
@@ -54,7 +54,7 @@
         display: inline-block;
     }
 
-    /* DISPOSIZIONE INFO RICETTA A GRIGLIA */
+    /* disposizione info ricetta a griglia */
 
     .quick-notes ul {
         display: flex;
@@ -65,20 +65,20 @@
         width: calc(100%/3 - 20px)
     }
 
-    /* SOVRADIMENSIONAMENTO BOTTONI SOTTO INFO RICETTA */
+    /* sovradimensionamento bottoni info ricetta */
 
     .social-networks>* {
         padding-left: 3rem;
         padding-right: 3rem;
     }
 
-    /* BANNER PUBBLICITARIO */
+    /* display banner pubblicitario */
 
     .ads {
         display: block;
     }
 
-    /* FLOATING IMMAGINE */
+    /* floating immagine */
 
     .presentation img {
         float: left;
@@ -90,13 +90,13 @@
 
 @media screen and (min-width:992px) {
 
-    /* SOVRADIMENSIONAMENTO TITOLO */
+    /*sovradimensionamento titolo */
 
     .recipe-title {
         font-size: 1.5rem;
     }
 
-    /* DISPOSIZIONE INFO RICETTA AFFIANCO A VIDEO E IN COLONNA */
+    /* disposizione info ricetta affianco a video e in colonna */
     .recipe-card {
         display: flex;
     }
@@ -117,7 +117,7 @@
         width: 100%;
     }
 
-    /* DISPLAY NOMI SOCIAL */
+    /* display nomi social */
     .social-networks .label {
         display: block;
 
@@ -136,7 +136,7 @@
         width: calc(100%/5 - 20px);
     }
 
-    /* DISPOSIZIONE TESTO IN FOOTER */
+    /* disposizione testo in footer */
 
     footer {
         align-items: center;
