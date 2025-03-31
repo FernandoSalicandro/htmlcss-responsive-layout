@@ -1,5 +1,36 @@
 /* Soluzione qui */
 
+
+/* BONUS RESPONSIVE LARGE MOBILE 576px */
+
+@media screen and (min-width:576px) {
+
+    /* floating immagine */
+
+    .presentation img {
+        float: left;
+        margin-right: 1rem;
+    }
+
+    /* sovradimensionamento bottoni */
+
+    .btn {
+        padding: 10px 40px;
+    }
+
+    /* cambio font pagina */
+
+    body:not(.recipe-name) {
+        font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    }
+
+    /* cambio font al titolo */
+
+    .recipe-name {
+        font-family: 'Nerko One', cursive;
+    }
+}
+
 /* RESPONSIVE TABLET 768px */
 
 @media screen and (min-width:768px) {
